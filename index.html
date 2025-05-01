@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Templates & Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "gsap": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        }
+    }
+    </script>
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Accelerate Strategy with Actionable Templates & Code Projects</h1>
+                <p>Practical tools for marketers, analysts, and devs — ready to use and built for results.</p>
+                <button class="primary-button">Browse Templates & Projects</button>
+            </div>
+        </header>
+        <main>
+            <section id="top-picks">
+                <h2>Top Picks</h2>
+                <div class="filter-chips">
+                    <button class="chip active" data-filter="all">All</button>
+                    <button class="chip" data-filter="premium">Premium</button>
+                    <button class="chip" data-filter="free">Free</button>
+                    <button class="chip" data-filter="client-favorite">Client Favorite</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <span class="badge free">Free</span>
+                        <div class="product-image">
+                            <img src="/dashboard-template.png" alt="Local SEO Dashboard Template">
+                        </div>
+                        <h3>Local SEO Dashboard</h3>
+                        <p>Track your local search performance with this comprehensive dashboard.</p>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge premium">Premium</span>
+                        <div class="product-image">
+                            <img src="/dashboard-template.png" alt="KPI Tracker Template">
+                        </div>
+                        <h3>KPI Tracker</h3>
+                        <p class="usage">Usage stats</p>
+                        <p>Monitor your key performance indicators in one place.</p>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge free">Free</span>
+                        <div class="product-image">
+                            <img src="/social-media-template.png" alt="Content Calendar Template">
+                        </div>
+                        <h3>Content Calendar</h3>
+                        <p>Plan and schedule your content across multiple platforms.</p>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge client-favorite">Client Favorite</span>
+                        <div class="product-image">
+                            <img src="/dashboard-template.png" alt="Marketing Report Template">
+                        </div>
+                        <h3>Marketing Report</h3>
+                        <p>Present your marketing results with clarity and impact.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="templates-library">
+                <h2>Templates Library</h2>
+                <div class="library-container">
+                    <div class="library-sidebar">
+                        <div class="sidebar-section">
+                            <h3>Category</h3>
+                            <div class="category-list">
+                                <label class="custom-checkbox"><input type="checkbox" name="category" value="seo"> SEO</label>
+                                <label class="custom-checkbox"><input type="checkbox" name="category" value="marketing"> Marketing Docs</label>
+                                <label class="custom-checkbox"><input type="checkbox" name="category" value="crm"> CRM</label>
+                                <label class="custom-checkbox"><input type="checkbox" name="category" value="planning"> Planning</label>
+                            </div>
+                        </div>
+                        <div class="sidebar-section">
+                            <h3>Price</h3>
+                            <div>
+                                <label class="custom-checkbox"><input type="checkbox" name="price" value="free"> Free</label>
+                                <label class="custom-checkbox"><input type="checkbox" name="price" value="premium"> Premium</label>
+                            </div>
+                        </div>
+                        <button class="apply-filters-button">Apply Filters</button>
+                    </div>
+                    <div class="library-content">
+                        <div class="search-container">
+                            <input type="search" placeholder="Search templates" class="search-input">
+                            <button class="search-button"><span class="search-icon">🔍</span></button>
+                        </div>
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="SEO Audit Checklist Template">
+                                </div>
+                                <h3>SEO Audit Checklist</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Social Media Planner Template">
+                                </div>
+                                <h3>Social Media Planner</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Sales CRM Template">
+                                </div>
+                                <h3>Sales CRM</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Website Analytics Dashboard Template">
+                                </div>
+                                <h3>Website Analytics Dashboard</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Project Tracker Template">
+                                </div>
+                                <h3>Project Tracker</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Ad Campaign Tracker Template">
+                                </div>
+                                <h3>Ad Campaign Tracker</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge premium">Premium</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Invoice Template">
+                                </div>
+                                <h3>Invoice Template</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge premium">Premium</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Budget Planner Template">
+                                </div>
+                                <h3>Budget Planner</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <span class="badge free">Free</span>
+                                <div class="product-image">
+                                    <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Email Marketing Template">
+                                </div>
+                                <h3>Email Marketing Template</h3>
+                                <div class="product-actions">
+                                    <button class="view-template-button">View Template</button>
+                                    <button class="download-button">Download</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="demo-code" class="card-section">
+                <h2>Demo Code</h2>
+                <div class="code-container">
+                    <div class="code-navigation">
+                        <div class="code-tabs">
+                            <button class="tab-button active" data-tab="html">HTML</button>
+                            <button class="tab-button" data-tab="css">CSS</button>
+                            <button class="tab-button" data-tab="js">JS</button>
+                        </div>
+                        <button class="copy-all-button">Copy All</button>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-block" data-tab-content="html">
+                            <div class="code-header">
+                                <span></span>
+                                <button class="copy-button">Copy</button>
+                            </div>
+                            <pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+    &lt;p&gt;This is demo HTML code.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+                        </div>
+                        <div class="code-block" data-tab-content="css" style="display: none;">
+                            <div class="code-header">
+                                <span></span>
+                                <button class="copy-button">Copy</button>
+                            </div>
+                            <pre><code class="language-css">.container {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}</code></pre>
+                        </div>
+                        <div class="code-block" data-tab-content="js" style="display: none;">
+                            <div class="code-header">
+                                <span></span>
+                                <button class="copy-button">Copy</button>
+                            </div>
+                            <pre><code class="language-javascript">console.log('This is demo JavaScript code.');
+
+document.addEventListener('DOMContentLoaded', () => {
+    alert('Page is loaded!');
+});</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="web-dev-projects" class="card-section">
+                <h2>Web Development Projects</h2>
+                <div class="project-grid">
+                    <div class="product-card">
+                        <span class="badge interactive">Interactive</span>
+                        <div class="product-image">
+                            <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Schemes Markup Visualizer Project">
+                        </div>
+                        <h3>Schemes Markup Visualizer</h3>
+                        <div class="product-actions">
+                            <button class="live-demo-button">Live Demo</button>
+                            <button class="view-code-button">View Code</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge client-project">Client Project</span>
+                        <div class="product-image">
+                            <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="Local Services Ad Audit Project">
+                        </div>
+                        <h3>Local Services Ad Audit</h3>
+                        <div class="product-actions">
+                            <button class="open-source-button">Open Source</button>
+                            <button class="view-code-button">View Code</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge interactive">Interactive</span>
+                        <div class="product-image">
+                            <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="CSS Animation Library Project">
+                        </div>
+                        <h3>CSS Animation Library</h3>
+                        <div class="product-actions">
+                            <button class="live-demo-button">Live Demo</button>
+                            <button class="view-code-button">View Code</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <span class="badge client-project">Client Project</span>
+                        <div class="product-image">
+                            <img src="/a/5c9054df-b917-43f5-9dfa-2834ae804bd1" alt="React Component Portfolio Project">
+                        </div>
+                        <h3>React Component Portfolio</h3>
+                        <div class="product-actions">
+                            <button class="open-source-button">Open Source</button>
+                            <button class="view-code-button">View Code</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="accessibility-widget closed">
+            <button class="accessibility-toggle">
+                <i class="fas fa-cog"></i>
+            </button>
+            <div class="accessibility-panel">
+                <h3>Accessibility Settings</h3>
+                <div class="accessibility-option">
+                    <label for="high-contrast">High Contrast</label>
+                    <input type="checkbox" id="high-contrast">
+                </div>
+                <div class="accessibility-option">
+                    <label for="reduced-motion">Reduced Motion (Seizure Safe)</label>
+                    <input type="checkbox" id="reduced-motion">
+                </div>
+                <div class="accessibility-option">
+                    <label for="color-blind-mode">Color Blind Mode</label>
+                    <select id="color-blind-mode">
+                        <option value="none">None</option>
+                        <option value="protanopia">Protanopia</option>
+                        <option value="deuteranopia">Deuteranopia</option>
+                        <option value="tritanopia">Tritanopia</option>
+                    </select>
+                </div>
+                <div class="accessibility-option">
+                    <label for="text-size">Text Size</label>
+                    <select id="text-size">
+                        <option value="normal">Normal</option>
+                        <option value="large">Large</option>
+                        <option value="x-large">Extra Large</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+                <p>&copy; 2025 Enterprise Templates & Solutions</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
